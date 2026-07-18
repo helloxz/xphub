@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script defer src="https://tj.rss.ink/custom.js" data-website-id="201c1115-152a-480a-ada4-c3b6675d0d06"></script>
   <script type="module" src="/src/js/main.js"></script>
   <script type="module" src="/src/css/main.css"></script>
 </head>
@@ -28,10 +29,10 @@
         <div class="flex items-center gap-3">
           <!-- Desktop nav -->
           <div class="hidden md:flex items-center gap-6">
-            <button @click="scrollTo('selfHosted')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors" x-text="t.nav.selfHosted"></button>
-            <button @click="scrollTo('saas')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors" x-text="t.nav.saas"></button>
-            <button @click="scrollTo('devTools')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors" x-text="t.nav.devTools"></button>
-            <button @click="scrollTo('about')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors" x-text="t.nav.contact"></button>
+            <button @click="scrollTo('selfHosted')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors cursor-pointer" x-text="t.nav.selfHosted"></button>
+            <button @click="scrollTo('saas')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors cursor-pointer" x-text="t.nav.saas"></button>
+            <button @click="scrollTo('devTools')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors cursor-pointer" x-text="t.nav.devTools"></button>
+            <button @click="scrollTo('about')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors cursor-pointer" x-text="t.nav.contact"></button>
           </div>
           <a :href="t.langSwitch.url" class="text-sm font-medium px-3 py-1.5 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-colors" x-text="t.langSwitch.label"></a>
           <!-- Mobile menu button -->
@@ -45,10 +46,10 @@
       <!-- Mobile menu -->
       <div x-show="mobileMenuOpen" x-transition.opacity.scale.origin.top class="md:hidden pb-4 border-t border-gray-100 mt-0" style="display:none">
         <div class="flex flex-col gap-2 pt-3">
-          <button @click="scrollTo('selfHosted')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left" x-text="t.nav.selfHosted"></button>
-          <button @click="scrollTo('saas')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left" x-text="t.nav.saas"></button>
-          <button @click="scrollTo('devTools')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left" x-text="t.nav.devTools"></button>
-          <button @click="scrollTo('about')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left" x-text="t.nav.contact"></button>
+          <button @click="scrollTo('selfHosted')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left cursor-pointer" x-text="t.nav.selfHosted"></button>
+          <button @click="scrollTo('saas')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left cursor-pointer" x-text="t.nav.saas"></button>
+          <button @click="scrollTo('devTools')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left cursor-pointer" x-text="t.nav.devTools"></button>
+          <button @click="scrollTo('about')" class="text-sm font-medium text-gray-600 hover:text-indigo-600 py-2 transition-colors text-left cursor-pointer" x-text="t.nav.contact"></button>
         </div>
       </div>
     </nav>
@@ -76,7 +77,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
       <!-- Section: Self-Hosted -->
-      <div id="selfHosted" class="mb-24">
+      <div id="selfHosted" class="scroll-mt-20 mb-24">
         <div class="text-center mb-14">
           <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900" x-text="t.sections.selfHosted.title"></h2>
           <p class="mt-3 text-gray-500 text-lg" x-text="t.sections.selfHosted.desc"></p>
@@ -103,7 +104,7 @@
       </div>
 
       <!-- Section: SaaS -->
-      <div id="saas" class="mb-24">
+      <div id="saas" class="scroll-mt-20 mb-24">
         <div class="text-center mb-14">
           <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900" x-text="t.sections.saas.title"></h2>
           <p class="mt-3 text-gray-500 text-lg" x-text="t.sections.saas.desc"></p>
@@ -130,7 +131,7 @@
       </div>
 
       <!-- Section: Dev Tools -->
-      <div id="devTools" class="mb-24">
+      <div id="devTools" class="scroll-mt-20 mb-24">
         <div class="text-center mb-14">
           <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900" x-text="t.sections.devTools.title"></h2>
           <p class="mt-3 text-gray-500 text-lg" x-text="t.sections.devTools.desc"></p>
@@ -160,7 +161,7 @@
   </section>
 
   <!-- About -->
-  <section id="about" class="py-16 sm:py-20 bg-gray-50">
+  <section id="about" class="scroll-mt-20 py-16 sm:py-20 bg-gray-50">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900" x-text="t.about.title"></h2>
       <p class="mt-6 text-gray-500 text-lg leading-relaxed" x-text="t.about.text"></p>
@@ -172,19 +173,28 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900" x-text="t.contact.title"></h2>
       <p class="mt-3 text-gray-500 text-lg" x-text="t.contact.desc"></p>
-      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
-        <div class="flex items-center gap-3 px-6 py-4 bg-white rounded-2xl shadow-sm border border-gray-100">
-          <i class="fa-brands fa-weixin text-green-500 text-2xl"></i>
-          <div class="text-left">
-            <div class="text-sm font-semibold text-gray-900" x-text="t.contact.wechat"></div>
-            <div class="text-xs text-gray-400" x-text="t.contact.wechatNote"></div>
+      <div class="mt-10 flex items-center justify-center gap-5">
+        <!-- WeChat -->
+        <div class="relative">
+          <button @click="toggleWechatQR()" class="w-14 h-14 flex items-center justify-center rounded-full bg-white shadow-sm border border-gray-100 hover:shadow-md hover:border-green-200 text-green-500 text-2xl transition-all duration-300" aria-label="WeChat">
+            <i class="fa-brands fa-weixin"></i>
+          </button>
+          <div x-show="showWechatQR" @click.outside="showWechatQR = false" x-transition.opacity.scale class="absolute bottom-16 left-1/2 -translate-x-1/2 bg-white rounded-2xl shadow-xl border border-gray-100 p-4 w-48 z-50">
+            <img :src="t.contact.wechatQR" alt="WeChat QR" class="w-full rounded-xl" />
+            <p class="text-xs text-gray-400 mt-2" x-text="t.contact.wechatHint"></p>
           </div>
         </div>
-        <a href="https://wpa.qq.com/msgrd?v=3&uin=337003006&site=qq&menu=yes" target="_blank" rel="noopener" class="flex items-center gap-3 px-6 py-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-          <i class="fa-brands fa-qq text-blue-500 text-2xl"></i>
-          <div class="text-left">
-            <div class="text-sm font-semibold text-gray-900" x-text="t.contact.qq"></div>
-          </div>
+        <!-- X -->
+        <a :href="t.contact.x" target="_blank" rel="noopener" class="w-14 h-14 flex items-center justify-center rounded-full bg-white shadow-sm border border-gray-100 hover:shadow-md hover:border-gray-300 text-gray-700 text-2xl transition-all duration-300" aria-label="X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <!-- Telegram -->
+        <a :href="t.contact.tg" target="_blank" rel="noopener" class="w-14 h-14 flex items-center justify-center rounded-full bg-white shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-200 text-blue-400 text-2xl transition-all duration-300" aria-label="Telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+        <!-- QQ -->
+        <a :href="t.contact.qq" target="_blank" rel="noopener" class="w-14 h-14 flex items-center justify-center rounded-full bg-white shadow-sm border border-gray-100 hover:shadow-md hover:border-blue-300 text-blue-500 text-2xl transition-all duration-300" aria-label="QQ">
+          <i class="fa-brands fa-qq"></i>
         </a>
       </div>
     </div>
