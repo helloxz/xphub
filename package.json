@@ -1,0 +1,21 @@
+{
+  "name": "xphub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "XPHub — 产品官网",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "alpinejs": "^3.15.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.1.5"
+  }
+}

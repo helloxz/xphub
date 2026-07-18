@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "selfHosted": "私有部署",
+    "saas": "SaaS 服务",
+    "devTools": "开发者工具",
+    "contact": "关于"
+  },
+  "langSwitch": {
+    "label": "EN",
+    "url": "/"
+  },
+  "hero": {
+    "title": "打造你的数字工具箱",
+    "subtitle": "XPHub 提供一系列实用、高效的软件产品，涵盖文件分享、书签管理、图床、短链接、OCR 识别等领域。私有部署或 SaaS 即用，总有一款适合你。",
+    "cta": "探索产品"
+  },
+  "sections": {
+    "selfHosted": {
+      "title": "🏠 私有部署产品",
+      "desc": "部署在你自己的服务器上，数据完全由你掌控。"
+    },
+    "saas": {
+      "title": "☁️ SaaS 服务",
+      "desc": "开箱即用，无需部署，注册即用。"
+    },
+    "devTools": {
+      "title": "🔧 开源开发者工具",
+      "desc": "为开发者打造的 API 服务，开源免费。"
+    }
+  },
+  "products": {
+    "selfHosted": [
+      {
+        "name": "Zdir",
+        "icon": "fa-solid fa-folder-open",
+        "desc": "轻量级多功能文件分享程序，支持文件上传、预览、分享管理。",
+        "tags": ["Docker", "Go"],
+        "url": "https://www.zdir.pro/zh/",
+        "urlLabel": "访问官网"
+      },
+      {
+        "name": "ZMark",
+        "icon": "fa-solid fa-bookmark",
+        "desc": "现代化书签管理与网址导航，AI 检索、多用户、双模式切换。",
+        "tags": ["Docker", "Hono.js", "推荐"],
+        "url": "https://www.zmark.app/",
+        "urlLabel": "访问官网"
+      },
+      {
+        "name": "ZNote",
+        "icon": "fa-solid fa-note-sticky",
+        "desc": "轻量级笔记应用，简洁高效的 Markdown 笔记工具。",
+        "tags": ["Docker"],
+        "url": "https://znote.xphub.dev/",
+        "urlLabel": "访问官网"
+      },
+      {
+        "name": "OneNav",
+        "icon": "fa-solid fa-compass",
+        "desc": "经典 PHP 书签管理工具，支持浏览器扩展、书签导入与分享。",
+        "tags": ["PHP", "Docker", "经典版"],
+        "url": "https://www.onenav.top/",
+        "urlLabel": "访问官网"
+      },
+      {
+        "name": "Zurl",
+        "icon": "fa-solid fa-link",
+        "desc": "简洁易用的短链接系统，支持 UA 拦截、自动标题获取、数据迁移。",
+        "tags": ["Docker", "Python", "FastAPI", "开源"],
+        "url": "https://github.com/helloxz/zurl",
+        "urlLabel": "GitHub"
+      }
+    ],
+    "saas": [
+      {
+        "name": "ImgURL",
+        "icon": "fa-solid fa-image",
+        "desc": "为个人和小微企业提供免费图片托管服务，一键上传生成外链，2017 年稳定运行至今。",
+        "tags": ["SaaS", "图床"],
+        "url": "https://www.imgurl.org/",
+        "urlLabel": "立即使用"
+      },
+      {
+        "name": "图链",
+        "icon": "fa-solid fa-diagram-project",
+        "desc": "专为中小型企业提供的图片转链接服务，广泛用于跨境电商、转运服务等场景。",
+        "tags": ["SaaS", "短链"],
+        "url": "https://go.piclink.cc/",
+        "urlLabel": "立即使用"
+      },
+      {
+        "name": "TCP.mk",
+        "icon": "fa-solid fa-toolbox",
+        "desc": "网络工具箱，提供 IP 查询、Ping、DNS 等常用网络诊断工具。",
+        "tags": ["SaaS", "工具"],
+        "url": "https://tcp.mk/",
+        "urlLabel": "立即使用"
+      }
+    ],
+    "devTools": [
+      {
+        "name": "ZOCR",
+        "icon": "fa-solid fa-file-lines",
+        "desc": "基于百度 PP-OCRv6 的在线 OCR 识别 API，支持 Docker 部署。",
+        "tags": ["Python", "OCR", "API", "开源"],
+        "url": "https://github.com/helloxz/zocr",
+        "urlLabel": "GitHub"
+      },
+      {
+        "name": "ZNSFW",
+        "icon": "fa-solid fa-shield-halved",
+        "desc": "基于 NSFW JS 的色情图像识别 API 服务，HTTP 调用即用。",
+        "tags": ["TypeScript", "Bun", "API", "开源"],
+        "url": "https://github.com/helloxz/znsfw",
+        "urlLabel": "GitHub"
+      }
+    ]
+  },
+  "contact": {
+    "title": "📬 联系我",
+    "desc": "有任何问题或合作意向，欢迎通过以下方式联系。",
+    "wechatQR": "https://img.rss.ink/imgs/2024/03/29/66eff523c3907130.png",
+    "wechatHint": "扫码添加微信",
+    "x": "https://x.com/xiaozblog",
+    "tg": "https://t.me/xiaozme",
+    "qq": "https://wpa.qq.com/msgrd?v=3&uin=337003006&site=qq&menu=yes"
+  },
+  "about": {
+    "title": "🙋 关于我",
+    "text": "我是 xiaoz，一名独立开发者，热衷于用技术打造实用、简洁的工具。XPHub 是我所有产品的集合，涵盖文件分享、书签管理、图床、短链接、OCR 等多个领域。每一款产品都源于实际需求，坚持「轻量、易用、可靠」的理念，希望能为你的工作和生活带来便利。"
+  },
+  "footer": {
+    "copyright": "© 2025 XPHub. All rights reserved.",
+    "blog": "小z博客",
+    "shop": "修平商城",
+    "linksLabel": "其它链接："
+  }
+}

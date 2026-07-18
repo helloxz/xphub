@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "selfHosted": "Self-Hosted",
+    "saas": "SaaS",
+    "devTools": "Dev Tools",
+    "contact": "About"
+  },
+  "langSwitch": {
+    "label": "中文",
+    "url": "/zh/"
+  },
+  "hero": {
+    "title": "Build Your Digital Toolkit",
+    "subtitle": "XPHub offers a suite of practical, efficient software products covering file sharing, bookmark management, image hosting, short links, OCR recognition, and more. Self-hosted or SaaS — there's always one for you.",
+    "cta": "Explore Products"
+  },
+  "sections": {
+    "selfHosted": {
+      "title": "🏠 Self-Hosted",
+      "desc": "Deploy on your own server. Your data, your control."
+    },
+    "saas": {
+      "title": "☁️ SaaS Services",
+      "desc": "Ready to use out of the box. No deployment needed."
+    },
+    "devTools": {
+      "title": "🔧 Open-Source Dev Tools",
+      "desc": "API services built for developers, open-source and free."
+    }
+  },
+  "products": {
+    "selfHosted": [
+      {
+        "name": "Zdir",
+        "icon": "fa-solid fa-folder-open",
+        "desc": "Lightweight multi-functional file sharing with upload, preview, and share management.",
+        "tags": ["Docker", "Go"],
+        "url": "https://www.zdir.pro/zh/",
+        "urlLabel": "Visit Site"
+      },
+      {
+        "name": "ZMark",
+        "icon": "fa-solid fa-bookmark",
+        "desc": "Modern bookmark manager & URL navigator with AI search, multi-user, and dual-mode.",
+        "tags": ["Docker", "Hono.js", "Featured"],
+        "url": "https://www.zmark.app/",
+        "urlLabel": "Visit Site"
+      },
+      {
+        "name": "ZNote",
+        "icon": "fa-solid fa-note-sticky",
+        "desc": "Lightweight note-taking app. Simple and efficient Markdown notes.",
+        "tags": ["Docker"],
+        "url": "https://znote.xphub.dev/",
+        "urlLabel": "Visit Site"
+      },
+      {
+        "name": "OneNav",
+        "icon": "fa-solid fa-compass",
+        "desc": "Classic PHP bookmark manager with browser extensions, import, and sharing.",
+        "tags": ["PHP", "Docker", "Classic"],
+        "url": "https://www.onenav.top/",
+        "urlLabel": "Visit Site"
+      },
+      {
+        "name": "Zurl",
+        "icon": "fa-solid fa-link",
+        "desc": "Simple and practical short URL system with UA blocking, auto title fetching, and data migration.",
+        "tags": ["Docker", "Python", "FastAPI", "OSS"],
+        "url": "https://github.com/helloxz/zurl",
+        "urlLabel": "GitHub"
+      }
+    ],
+    "saas": [
+      {
+        "name": "ImgURL",
+        "icon": "fa-solid fa-image",
+        "desc": "Free image hosting for individuals and small businesses. One-click upload with external links. Running reliably since 2017.",
+        "tags": ["SaaS", "Image Host"],
+        "url": "https://www.imgurl.org/",
+        "urlLabel": "Use Now"
+      },
+      {
+        "name": "PicLink",
+        "icon": "fa-solid fa-diagram-project",
+        "desc": "Image-to-link service for SMBs. Widely used in cross-border e-commerce, logistics forwarding, and more.",
+        "tags": ["SaaS", "Short Link"],
+        "url": "https://go.piclink.cc/",
+        "urlLabel": "Use Now"
+      },
+      {
+        "name": "TCP.mk",
+        "icon": "fa-solid fa-toolbox",
+        "desc": "Network toolbox with IP lookup, Ping, DNS, and other common network diagnostic tools.",
+        "tags": ["SaaS", "Tools"],
+        "url": "https://tcp.mk/",
+        "urlLabel": "Use Now"
+      }
+    ],
+    "devTools": [
+      {
+        "name": "ZOCR",
+        "icon": "fa-solid fa-file-lines",
+        "desc": "Online OCR recognition API based on Baidu PP-OCRv6. Docker deployment supported.",
+        "tags": ["Python", "OCR", "API", "OSS"],
+        "url": "https://github.com/helloxz/zocr",
+        "urlLabel": "GitHub"
+      },
+      {
+        "name": "ZNSFW",
+        "icon": "fa-solid fa-shield-halved",
+        "desc": "NSFW image detection API service based on NSFW JS. Simple HTTP calls.",
+        "tags": ["TypeScript", "Bun", "API", "OSS"],
+        "url": "https://github.com/helloxz/znsfw",
+        "urlLabel": "GitHub"
+      }
+    ]
+  },
+  "contact": {
+    "title": "📬 Contact",
+    "desc": "Have questions or collaboration ideas? Feel free to reach out.",
+    "wechatQR": "https://img.rss.ink/imgs/2024/03/29/66eff523c3907130.png",
+    "wechatHint": "Scan to add WeChat",
+    "x": "https://x.com/xiaozblog",
+    "tg": "https://t.me/xiaozme",
+    "qq": "https://wpa.qq.com/msgrd?v=3&uin=337003006&site=qq&menu=yes"
+  },
+  "about": {
+    "title": "🙋 About Me",
+    "text": "I'm xiaoz, an indie developer passionate about building practical, lightweight tools. XPHub is the home of all my products — covering file sharing, bookmark management, image hosting, short links, OCR, and more. Every product is born from real needs, built with a philosophy of simplicity, usability, and reliability. Hope they make your work and life easier."
+  },
+  "footer": {
+    "copyright": "© 2025 XPHub. All rights reserved.",
+    "blog": "Xiaoz Blog",
+    "shop": "Xiuping Shop",
+    "linksLabel": "Other Links:"
+  }
+}
